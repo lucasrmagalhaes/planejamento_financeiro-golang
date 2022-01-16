@@ -1,14 +1,7 @@
 package main
 
-import (
-	"net/http"
-
-	"github.com/lucasrmagalhaes/planejamento_financeiro-golang/adapter/http/transaction"
-)
+import "github.com/lucasrmagalhaes/planejamento_financeiro-golang/adapter/http"
 
 func main() {
-	http.HandleFunc("/transactions", transaction.GetTransactions)
-	http.HandleFunc("/transactions/create", transaction.CreateTransaction)
-
-	http.ListenAndServe(":8080", nil)
+	http.Init()
 }
