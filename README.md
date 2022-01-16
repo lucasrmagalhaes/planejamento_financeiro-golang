@@ -103,3 +103,8 @@ golint ./...
 ```golang
 go fmt ./...
 ```
+
+##### Prometheus
+```golang
+go get github.com/prometheus/client_golang/prometheus
+```
