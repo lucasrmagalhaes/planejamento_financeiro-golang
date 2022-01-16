@@ -17,10 +17,11 @@ jobs:
           paths:
             - "/go/pkg/mod"
       - run:
-          name: Run tests
-          command: |
-            mkdir -p /tmp/test-reports
-            gotestsum --junitfile /tmp/test-reports/unit-tests.xml
+          name: Primary Teste
+          command: go get -v -t -d ./...
+      -run:
+          name: Second Test
+          command: go test -v ./...
       - store_test_results:
           path: /tmp/test-reports
 workflows:
