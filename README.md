@@ -38,3 +38,8 @@ CD: Continuous Delivery
 - Implantar software manualmente;
 - Implantar em um ambiente similiar ao de produção apenas quando o desenvolvimento esiver completo.; e
 - Vantagens: Reduzir erros, estresse, flexibilidade de implantação e rollback mais simples.
+
+##### Iniciando o projeto
+```golang
+go mod init github.com/lucasrmagalhaes/planejamento_financeiro-golang
+```
