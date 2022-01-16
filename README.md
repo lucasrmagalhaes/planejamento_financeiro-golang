@@ -83,3 +83,18 @@ var var3 string
     }
 ]
 ```
+
+##### Go Lint
+```golang
+go get -u golang.org/x/lint/golint
+```
+
+Verifica os diretórios onde possui teste(s)
+```golang
+go test ./...
+```
+
+Verifica os problemas
+```golang
+golint ./...
+```
