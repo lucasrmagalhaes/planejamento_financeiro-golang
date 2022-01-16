@@ -111,3 +111,28 @@ go get github.com/prometheus/client_golang/prometheus
 
 ##### CircleCI
 [Acesso](https://circleci.com/vcs-authorize/)
+
+##### Docker
+[Download](https://www.docker.com/products/docker-desktop) <br>
+[WSL 2](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+
+```
+make build-image
+```
+
+##### Endpoints
+```
+http://localhost:8080/transactions
+```
+
+```
+http://localhost:8080/transactions/create
+```
+
+```
+http://localhost:8080/health
+```
+
+```
+http://localhost:8080/metrics
+```

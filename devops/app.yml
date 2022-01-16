@@ -1,0 +1,7 @@
+version: "3"
+services:
+  app:
+    image: lucasrmagalhaes/planejamento_financeiro-golang
+    container_name: "planejamento_financeiro"
+    ports:
+      - 8080:8080
