@@ -58,3 +58,16 @@ C:\Program Files\Go
 ```golang
 go mod init github.com/lucasrmagalhaes/planejamento_financeiro-golang
 ```
+
+##### Declarando variáveis em GO
+```golang
+var var1 = ""
+```
+
+```golang
+var2 := ""
+```
+
+```golang
+var var3 string
+```
