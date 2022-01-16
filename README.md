@@ -98,3 +98,8 @@ Verifica os problemas
 ```golang
 golint ./...
 ```
+
+##### Go Fmt
+```golang
+go fmt ./...
+```
