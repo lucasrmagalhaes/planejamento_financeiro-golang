@@ -71,3 +71,15 @@ var2 := ""
 ```golang
 var var3 string
 ```
+
+##### POST
+```json
+[
+    {
+        "title": "Salário",
+        "amount": 1200,
+        "type": 0,
+        "created_at": "2022-01-16T10:20:00"
+    }
+]
+```
