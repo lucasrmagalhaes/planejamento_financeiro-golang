@@ -39,18 +39,17 @@ CD: Continuous Delivery
 - Implantar em um ambiente similiar ao de produção apenas quando o desenvolvimento esiver completo.; e
 - Vantagens: Reduzir erros, estresse, flexibilidade de implantação e rollback mais simples.
 
-##### Variáveis de Ambientes
+##### Variáveis de Ambiente
 Adicionar em Path:
 ```
 C:\Program Files\Go\bin
 ```
 
 Criar uma nova:
-Nome
 ```
 GO_HOME
 ```
-Caminho
+
 ```
 C:\Program Files\Go
 ```
